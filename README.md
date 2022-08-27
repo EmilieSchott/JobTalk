@@ -1,2 +1,3 @@
 # JobTalk
-This project is a technical test for Ubiquid.
+
+This project is a technical test in html / css / JS
