@@ -9,13 +9,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>JobTalk - Les Jobs</title> 
     <meta name="description" content="Vous pourrez consulter ici les jobs disponibles" /> 
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet"> 
 
   </head>
 
   <body>
 
-    <h1>Hello, world!</h1>
+    <nav id="sidebar-green">
+        <a id="logo" href="">
+            <img src="images/logo.png" alt="logo JobTalk">
+        </a>
+        <div class="side-menu">
+            <div class="side-menu-item">
+                <div class="side-menu-box" id="home-link">
+                    <a href="#">
+                        <svg class="ic_nav" id="home-icon" width="33" height="32" fill="FFF">
+                            <path d="m27.403 12.963-10-9.088a2 2 0 0 0-2.7 0l-10 9.088a2 2 0 0 0-.65 1.475V25.95c-.008.504.17.994.5 1.375a1.988 1.988 0 0 0 1.5.675h6a1 1 0 0 0 1-1v-6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6a1 1 0 0 0 1 1h6c.331.003.658-.079.95-.238A2.013 2.013 0 0 0 28.053 26V14.437a2 2 0 0 0-.65-1.474Z" fill="#0E0E2C"/>
+                        </svg>
+                        <span class="frame-125">Accueil</span>
+                    </a>
+                </div>
+            </div>
+            <div class="side-menu-item" id="this-page">
+                <div class="side-menu-box" id="job-link">
+                    <a href="#">
+                        <svg class="ic_nav" id="job-icon" width="33" height="32" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.053 8h-5.088A6 6 0 0 0 10.14 8H5.053a2 2 0 0 0-2 2v3h26v-3a2 2 0 0 0-2-2Zm-24 18V14.5h11V17h4v-2.5h11V26a2 2 0 0 1-2 2h-22a2 2 0 0 1-2-2Zm13-21a4.012 4.012 0 0 1 3.875 3h-7.75a4.013 4.013 0 0 1 3.875-3Z" fill="#0E0E2C"/>
+                        </svg>
+                        <span class="frame-125">Les jobs</span>
+                    </a>
+                </div>
+            </div>
+            <div class="side-menu-item">
+                <div class="side-menu-box" id="message-link">
+                    <a href="#">
+                        <svg class="ic_nav" id="message-icon" width="32" height="33" fill="none">
+                            <path d="M27 6.968H5a2 2 0 0 0-2 2v19.85a1.963 1.963 0 0 0 1.162 1.813c.26.132.547.2.838.2a2 2 0 0 0 1.287-.475l3.975-3.338L27 26.968a2 2 0 0 0 2-2v-16a2 2 0 0 0-2-2Zm-17 11.5a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 3Zm6 0a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 3Zm6 0a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 3Z" fill="#0E0E2C"/>
+                        </svg>
+                        <span class="frame-125">Messages</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="side-menu-item">
+            <div class="side-menu-box" id="logout-link">
+                <a href="#">
+                    <svg class="ic_nav" id="logout-icon" width="33" height="32" fill="none">
+                        <path d="m27.765 16.712-5.25 5.25a1.037 1.037 0 0 1-.712.288 1 1 0 0 1-1-1V17h-7.75a1 1 0 0 1 0-2h7.75v-4.25a1 1 0 0 1 1.2-.978c.192.037.37.13.512.265l5.25 5.25a1.012 1.012 0 0 1 0 1.425ZM13.053 26h-7V6h7a1 1 0 1 0 0-2h-7a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h7a1 1 0 0 0 0-2Z" fill="#0E0E2C"/>
+                    </svg>
+                    <span class="frame-125">Déconnexion</span>
+                </a>
+            </div>
+        </div>
+    </nav>
 
   </body>
 
