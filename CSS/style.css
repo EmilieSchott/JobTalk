@@ -21,17 +21,24 @@ nav {
     display: flex;
 }
 
+a
+{
+	text-decoration: none;
+}
+  
 #logo {
-/*    display:block;  */    
+
+    display:block;    
     width: 63.34%;
     align-items: center;
-}
+    height: 44px;
+    margin-left: 40px;
+    margin-top: 23px;
+} 
 
 #logo img {
     max-width: 100%;
     height: auto;
-    margin-left: 40px;
-    margin-top: 23px;
 }
 
 .side-menu {
@@ -89,6 +96,8 @@ nav {
     width: 162px;
 }
 
+
+
 .ic-nav {
     width: 32px;
     height: 32px;
@@ -120,7 +129,7 @@ nav .frame-125 {
     color: #0E0E2C;
 }
 
-a div {
-    display: inline-block;
-    background-color: aqua;
+svg {
+    width: 32px;
+    height: 32px;
 }
