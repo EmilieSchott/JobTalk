@@ -21,6 +21,15 @@ h2 {
     line-height:28.15px;
 }
 
+h3 {
+    color: #0E0E2C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
 #sidebar {
     background-color: #7650E0;
     max-width: 240px;
@@ -294,4 +303,106 @@ a svg {
 
 #jobs-section {
     padding-top: 15px;
+}
+
+.job-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-left: 20px;
+    height: 116px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.left-job-article-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.square {
+    width: 76px;
+    height: 76px;
+    background: #F1EEFC;
+    border-radius: 6px;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45px;
+    color: #7650E0;
+}
+
+.first-line-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    height: 33px;
+}
+
+.remote-box{
+    padding: 7px 10px;
+    background: #F1EEFC;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.partial {
+    color:#7650E0;
+}
+
+.total {
+    color:#0074FF;
+}
+
+.ad-hoc {
+    color: #F0BA1C;
+}
+
+.second-line-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 21px;
+}
+
+.space {
+    width: 84px;
+    height: 0px;
+    margin-left: 16px;
+    margin-right:16px;
+    border: 1px solid #505053;
+}
+
+.right-job-article-part {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.first-line-right {
+    margin-bottom: 14px;
+}
+
+.pay-field {
+    color: #0E0E2C;
+}
+
+.pay-number{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7650E0;
 }
