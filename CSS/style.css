@@ -14,6 +14,13 @@ body {
     background-color: #F4F5F9;
 }
 
+h2 {
+    color: #0E0E2C;
+    font-weight: 500;
+    font-size:24px;
+    line-height:28.15px;
+}
+
 #sidebar {
     background-color: #7650E0;
     max-width: 240px;
@@ -191,13 +198,6 @@ a svg {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
-}
-
-#title {
-    color: #0E0E2C;
-    font-weight: 500;
-    font-size:24px;
-    line-height:28.15px;
 }
 
 #print-button {
