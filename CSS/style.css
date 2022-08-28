@@ -133,13 +133,6 @@ a svg {
     height: 32px;
 }
 
-#page-content {
-    margin-left: 280px;
-    margin-right: 40px;
-    display: flex;
-    height: 100%;
-}
-
 #account-navbar {
     width: 100%;
     max-height:32px;
@@ -150,7 +143,6 @@ a svg {
     justify-content: flex-end;
     align-items: center;
 }
-
 
 #red-point {
     fill:#FC573B;
@@ -174,4 +166,56 @@ a svg {
     width: 20px;
     height: 20px;
     margin-left: 8px;
+}
+
+#page-title {
+    width: 100%;
+    max-height:32px;
+    position: fixed; 
+    display: flex;
+    margin-top: 102px;
+    right:50px;
+    left:280px;
+    align-items: center;
+}
+
+#print-button {
+    position: fixed;
+    right: 40px;
+}
+
+#title {
+    color: #0E0E2C;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size:24px;
+    line-height:28.15px;
+}
+
+#print-button {
+    color: #FFFFFF;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size:18px;
+    line-height:21px;
+    background-color: #7650E0;
+    padding: auto;
+    width: 182px;
+    height: 38px;
+    box-shadow: 0px 4px 13px rgba(67, 67, 67, 0.2);
+    border:none;
+    border-radius: 10px;
+}
+
+#print-button:hover {
+    opacity: 80%;
+
+}
+
+#page-content {
+    margin-left: 280px;
+    margin-right: 40px;
+    padding-top: 102px;
+    display: flex;
+    height: 100%;
 }
