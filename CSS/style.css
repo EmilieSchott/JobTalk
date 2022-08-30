@@ -222,10 +222,6 @@ a svg {
     border-radius: 10px;
 }
 
-#print-button:hover {
-    opacity: 80%;
-}
-
 #sort-options {
     padding-top: 20px;
     padding-bottom: 15px;
@@ -359,15 +355,15 @@ a svg {
     line-height: 19px;
 }
 
-.partial {
+.regularly {
     color:#7650E0;
 }
 
-.total {
+.full {
     color:#0074FF;
 }
 
-.ad-hoc {
+.eventually {
     color: #F0BA1C;
 }
 
